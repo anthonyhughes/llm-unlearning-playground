@@ -20,7 +20,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 from rouge_score import rouge_scorer
 from collections import defaultdict
 
-HF_TOKEN = os.getenv('HF_TOKEN','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')
+HF_TOKEN = os.getenv('HF_TOKEN','')
 MODEL_REPO='llmunlearningsemeval2025organization/olmo-1B-model-semeval25-unlearning'
 DATASET_REPO='llmunlearningsemeval2025organization/semeval25-unlearning-dataset-public'
 model_dir=snapshot_download(repo_id=MODEL_REPO,token=HF_TOKEN)
