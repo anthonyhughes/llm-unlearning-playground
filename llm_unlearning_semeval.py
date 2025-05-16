@@ -12,7 +12,7 @@ Prereqs
 !pip install --upgrade transformers huggingface_hub ai2-olmo datasets rouge_score
 
 # comp token
-hf_token = "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"
+hf_token = ""
 
 # Grab the competition model
 from huggingface_hub import snapshot_download
